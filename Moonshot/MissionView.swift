@@ -52,7 +52,6 @@ struct MissionView: View {
                 }
             }
         }.navigationBarTitle(Text(mission.displayName),displayMode: .inline)
-        .navigationbar
     }
     
     init(mission: Mission, astronauts: [Astronaut]){
